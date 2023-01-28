@@ -1,45 +1,61 @@
-
 .header {
+  background-color: transparent;
   position: absolute;
   width: 100%;
 }
 
-.header-nav {
+.header-menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
+  padding-top: 16px;
+  padding-bottom: 9px;
+
   font-family: "Film P3", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
-  line-height: calc(37 / 36);
+  line-height: 1.03;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #fff;
-  padding: 16px 0px;
-  margin: 0;
+
+  cursor: pointer;
 }
 
-.header-list {
+.header .list {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  gap: 26px;
 }
+
+.header-item:not(:last-child) {
+  margin-right: 20px;
+}
+
 
 .header-item {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  margin: 0px 0px 0px 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #F3C653;
+  color: #fff;
 }
+
+.header-link {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 16px;
+
+  color: #fff;
+}
+
 .header-icons {
   margin-left: 12px;
+  fill: #fff;
 }
