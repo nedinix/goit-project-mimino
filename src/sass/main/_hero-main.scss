@@ -11,20 +11,22 @@
 }
 
 .address-link {
-    margin-left: auto;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
-    padding: 8px 0;
     display: flex;
-    max-width: 210px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
+    margin-left: auto;
+    padding: 8px 6px;
+    max-width: 210px;
+    margin-bottom: 24px;
+
+    border: 1px solid var(--background);
+    border-radius: 2px;
 }
 
 .address {
     font-style: normal;
     font-size: 12px;
-    line-height: calc(15 / 12);
+    line-height: 1.25;
     letter-spacing: 0.01em;
     color: #E5E5E5;
 }
@@ -32,7 +34,6 @@
 .hero-title {
     font-family: 'Film P3';
     font-weight: 700;
-    font-style: normal;
     font-size: 96px;
     line-height: 1.07;
     letter-spacing: 0.3em;
@@ -42,14 +43,15 @@
 }
 
 .hero-text {
+    margin-top: 24px;
+
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-    text-align: center;
-    margin-top: 24px;
 }
 
 .hero-slogan {
